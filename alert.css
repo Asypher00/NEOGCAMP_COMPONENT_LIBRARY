@@ -1,0 +1,28 @@
+.alert-container{
+ 
+    display : flex;
+    padding : 1.25rem;
+    font-size: 1.25rem;
+    font-family: "comic sans ms";
+    width : 50vw;
+    border-radius : 0.625rem;
+    justify-content: space-between;
+    margin : 1.25rem;
+}
+
+.alert-container-error{
+    background-color: rgb(245, 125, 125);
+}
+
+.alert-container-success{
+    background-color: rgb(181, 245, 181);
+}
+
+.alert-container-warning{
+    background-color: rgb(240, 240, 188);
+}
+
+.alert-btn{
+    border : none;
+    font-size: 1.25rem;
+}
