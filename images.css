@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+.img-container{
+    width : 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    border : 0.625rem solid black;
+  
+}
+
+
+  @media screen and (min-width : 1000px) {
+    .img-responsive{border-color: red;
+        width : 30rem;
+        height: 30rem;
+
+      
+  }
+}
+
+@media screen and (min-width : 1500px) {
+    .img-responsive{border-color: rgb(115, 243, 115);
+        width : 40rem;
+        height: 40rem;
+
+      
+  }
+    
+}
