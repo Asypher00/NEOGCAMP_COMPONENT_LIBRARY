@@ -1,0 +1,55 @@
+body{
+    background-color: lightgrey;
+    font-family: "comic sans ms"
+  }
+  .container { display : flex;
+  flex-flow : column wrap;
+  background-color: #fff;
+  border : 1px solid black;
+  width : 300px;
+  
+  }
+  .cover-image{
+    height : 200px;
+    width : 300px;
+    position : relative;
+    }
+  
+    .card-header{
+      margin : 0.625rem;
+      margin-bottom: 0px;
+      padding-bottom : 0px;
+      font-weight : bold;
+      /* position : absolute;
+      top : 150px; */
+      
+    }
+  
+    .author {
+      margin : 0.9375rem;
+      margin-top : 0px;
+      padding-top: 0px;
+      font-size : 0.75rem;
+      font-weight : normal;
+    }
+    .card-para
+    {
+      margin : 0.625rem;
+      font-style: italic;
+      font-size : 0.9375rem;
+       }
+  
+   .card-footer
+   {
+     display : flex;
+     justify-content : space-evenly;
+     margin-bottom: 0.625rem;
+  
+   }
+  
+   .card-btn{background-color: #fff;
+       font-family: "comic sans ms";
+       border : none;
+   }
+  
+  
