@@ -1,0 +1,19 @@
+.input-container {
+ background-color: lightgray;
+width:  31.25rem;
+height  : 3.125rem;
+border-radius: 0.625rem;
+border: 0.125rem solid black;
+padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+font-size: 1.25rem;
+}
+
+.error-container{
+    border-color: red;
+}
+
+.error-display{
+    color: red;
+    font-size: 1.25rem;
+    margin : 1.25rem;
+}
