@@ -1,0 +1,61 @@
+:root {
+    --badge-offline : grey;
+    --badge-online :  rgb(96, 226, 96);
+    --badge-alert : red;
+    --badge-notify :blue;
+
+}
+
+
+.badge-container {
+    position: relative;
+    margin : 1.25rem;
+    display: inline-block;
+}
+
+.badge{position: absolute;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 50%;
+    border : 0.125rem solid white;
+    top : 0rem;
+    left : 1.25rem;
+}
+
+.badge-color-1{
+   background-color: var(--badge-alert);
+}
+
+.badge-color-2{
+    background-color: var( --badge-notify );
+}
+.badge-color-3{
+    background-color:var(--badge-offline);
+}
+.badge-color-4{
+    background-color: var(--badge-online);
+}
+
+.badge-2{
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color : whitesmoke
+}
+.avatarImg {
+    height : 3.125rem;
+    width: 3.125rem;
+    border-radius : 50%;
+    margin : 1.25rem;
+}
+
+.avatar-border {
+    border : 0.3rem solid rgb(124, 246, 124);
+}
+
+.badge-position-bottom{
+    position : absolute;
+    top: 3.5rem;
+    left : 3.5rem;
+}
