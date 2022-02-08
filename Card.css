@@ -1,15 +1,9 @@
-/* body {
-  font-family: "comic sans ms";
-  display: flex;
-  gap : 1.25rem;
-  flex-wrap: wrap;
-  
-} */
+
 
 .card-container {position: relative;
   display : flex;
   
-  /* flex-wrap : wrap; */
+ 
   flex-direction : column;
   justify-content: space-between;
   background-color: lightgray;
