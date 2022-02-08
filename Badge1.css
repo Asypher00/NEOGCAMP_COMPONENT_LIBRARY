@@ -1,3 +1,12 @@
+:root {
+    --badge-offline : grey;
+    --badge-online :  rgb(96, 226, 96);
+    --badge-alert : red;
+    --badge-notify :blue;
+
+}
+
+
 .badge-container {
     position: relative;
     margin : 1.25rem;
@@ -14,17 +23,17 @@
 }
 
 .badge-color-1{
-    background-color: red;
+   background-color: var(--badge-alert);
 }
 
 .badge-color-2{
-    background-color: blue;
+    background-color: var( --badge-notify );
 }
 .badge-color-3{
-    background-color: grey;
+    background-color:var(--badge-offline);
 }
 .badge-color-4{
-    background-color: rgb(96, 226, 96);
+    background-color: var(--badge-online);
 }
 
 .badge-2{
