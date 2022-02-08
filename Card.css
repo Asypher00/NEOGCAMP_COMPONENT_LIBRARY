@@ -1,0 +1,93 @@
+
+
+.card-container {position: relative;
+  display : flex;
+  
+ 
+  flex-direction : column;
+  justify-content: space-between;
+  background-color: lightgray;
+  border : 0.125rem solid black;
+  padding: 0.625rem;
+  width : 15.625rem;
+  height : 25rem;
+  font-size: 1.25rem;
+
+}
+
+.card-img{
+height : 18.75rem;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+.card-main {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.prod-name{
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.prod-type {
+  font-size :1rem;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.btn {
+  margin : 0px;
+ font-family: "comic sans ms";
+  font-weight: 50%;
+  width : 12.5rem;
+  height : 3.125rem;
+  font-size: 1.125rem;
+  background-color: aqua;
+  
+  border : 0.125rem solid white;
+  border-radius: 1.25rem;
+
+}
+.btn-icon{width: 3.125rem;
+  background-color: lightgray;
+  border : none;
+  border-radius: 50%;
+  position: absolute;
+  top : 22.8125rem;
+  left : 13.5rem;
+}
+.txt-style{
+  color : rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.card-badge{
+  position: absolute;
+  text-align: center;
+  background-color: rgb(96, 248, 96);
+  width : 4.6875rem;
+  border-radius: 0.625rem;
+  top: 20.3rem;
+  left : 9rem;
+
+}
+
+.pos-top-right{
+  position: absolute;
+  top : 0px;
+  left : 13.5rem;
+}
+
+.card-shadow{
+  box-shadow:1.25rem 1.25rem rgb(160, 159, 159) ;
+}
+
+.txt-overlay{
+  position: absolute;
+  font-size: 1rem;
+  color : red;
+  top : 6rem;
+  font-weight: 50%;
+}
