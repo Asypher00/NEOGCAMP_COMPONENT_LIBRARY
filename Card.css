@@ -1,10 +1,10 @@
-body {
+/* body {
   font-family: "comic sans ms";
   display: flex;
   gap : 1.25rem;
   flex-wrap: wrap;
   
-}
+} */
 
 .card-container {position: relative;
   display : flex;
