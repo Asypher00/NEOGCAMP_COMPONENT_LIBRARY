@@ -1,0 +1,36 @@
+.btn {
+    margin : 1.25rem;
+    font-family: "comic sans ms";
+    font-weight: 50%;
+    width : 12.5rem;
+    height : 3.125rem;
+    font-size: 1.125rem;
+    background-color: aqua;
+    
+    border : 0.125rem solid white;
+    border-radius: 1.25rem;
+
+}
+
+.txt-style{
+    color : rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.btn-link {
+    background-color: white;
+    border : none;
+}
+
+.btn-icon{
+    background-color: white;
+    border : none;
+}
+
+.btn-float{
+    width :3.125rem;
+    border-radius: 50%;
+    position: fixed;
+    top : 0px;
+    right : 0px;
+}
