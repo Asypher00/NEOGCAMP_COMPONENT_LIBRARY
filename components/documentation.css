@@ -60,7 +60,17 @@ a:hover {
     padding-top: 100px;
 }
 
+
+
 iframe {
     display: block;
     margin: 20px;
+}
+
+.doc-iframe {
+    width: 700px;
+    height: 450px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
