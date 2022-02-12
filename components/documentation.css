@@ -12,7 +12,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: gray;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0px;
     padding: 0px;
 
@@ -24,18 +24,20 @@ body {
     z-index: 2;
     background-color: lightgray;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    border-bottom: 1px solid black;
-    height: 50px;
+    border-bottom: 0.0625rem solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100vw;
 }
 
 .nav-item {
     text-align: center;
     font-size: 125%;
-
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    background-color: lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
@@ -55,22 +57,22 @@ a:hover {
 
 .doc-main {
 
-    padding-left: 100px;
-    margin-left: 100px;
-    padding-top: 100px;
+    padding-left: 6.25rem;
+    margin-left: 6.25rem;
+    padding-top: 6.25rem;
 }
 
 
 
 iframe {
     display: block;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .doc-iframe {
-    width: 700px;
-    height: 450px;
-    border: 2px solid black;
+    width: 43.75rem;
+    height: 28.125rem;
+    border: 0.125rem solid black;
     background-color: whitesmoke;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
