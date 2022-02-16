@@ -1,0 +1,41 @@
+:root {
+    --gridBackground: gray;
+}
+
+body {
+    font-family: "comic sans ms";
+}
+
+.grid-container-two {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    background-color: var(--gridBackground);
+    height: 6.25rem;
+
+}
+
+.grid-item {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.grid-container-three {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    background-color: var(--gridBackground);
+    height: 6.25rem;
+
+
+}
+
+.grid-border {
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
