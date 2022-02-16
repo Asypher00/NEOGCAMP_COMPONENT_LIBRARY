@@ -1,0 +1,39 @@
+.body {
+  background-color: lightgray;
+
+}
+
+.snack-container {
+  position: fixed;
+  top: 85vh;
+  left: 40vw;
+  right: 40vw;
+  font-family: "comic sans ms";
+  background-color: darkgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  border-radius: 0.3125rem;
+  border: 0.125rem solid black;
+}
+
+.snack-footer {
+  display: flex;
+  width: 6.25rem;
+  justify-content: space-around;
+
+}
+
+.btn-snack {
+  font-family: "comic sans ms";
+  font-weight: bold;
+  background-color: darkgray;
+  border: none;
+}
+
+.btn-snack:nth-of-type(1) {
+  color: blueviolet;
+}
