@@ -1,0 +1,16 @@
+:root{
+    --ratingGreen : rgb(107, 204, 107)
+}
+
+body{
+    font-family: "comic sans ms";
+    
+}
+
+.rating-style{
+    
+    margin : 1.25rem;
+}
+.fa-star{
+    color : var(--ratingGreen);
+}
