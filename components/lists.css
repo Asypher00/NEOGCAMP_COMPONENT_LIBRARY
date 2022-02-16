@@ -1,0 +1,25 @@
+
+body{
+    font-family: "comic sans ms";
+}
+
+.list-style{
+    list-style: none ;
+    font-size : 1.875rem;
+    
+}
+
+.list-item
+{
+    background-color: lightgray;
+    width : 15.625rem;
+    border : 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin : 10px;
+  
+}
+
+.stacked-lists{
+    display: inline-block;
+}
