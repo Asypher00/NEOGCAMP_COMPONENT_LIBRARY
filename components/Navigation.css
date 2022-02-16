@@ -1,36 +1,39 @@
 body {
-    background-color : lightgray;
-   
-  }
-   
-   
-  .nav-container {
-    background-color: #fff;
-     font-family: "comic sans ms";
-     font-size: 1.5rem;
-    display : flex;
-    flex-wrap : wrap;
-    justify-content : space-between;
-    width : 98vw;
-    padding : 0.625rem;
-    border-radius : 0.625rem;
-    background-color: aqua;
-  
-  
-    
-  }
-  .nav-header {
-  display : flex;
+  background-color: lightgray;
+
+}
+
+
+.nav-container {
+  background-color: #fff;
+  font-family: "comic sans ms";
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width : 15rem;
-  }
-  .nav-footer {
-    display: flex;
-    justify-content : space-between;
-    width : 12.5rem;
-    
-    margin-right: 2.50rem;
-  }
-  a{
-    color : black;
-  }
+  width: 98vw;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: aqua;
+
+
+
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 12.5rem;
+
+  margin-right: 2.50rem;
+}
+
+a {
+  color: black;
+}
