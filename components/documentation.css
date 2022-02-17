@@ -5,7 +5,13 @@
 @import url(Button.css);
 @import url(images.css);
 @import url(input.css);
-
+@import url(lists.css);
+@import url(Navigation.css);
+@import url(snackbar.css);
+@import url(ratings.css);
+@import url(Modal.css);
+@import url(txt-utilities.css);
+@import url(grids.css);
 body {
     font-family: "comic sans ms";
     display: flex;
@@ -76,4 +82,9 @@ iframe {
     border: 0.125rem solid black;
     background-color: whitesmoke;
     border-radius: 0.625rem;
+}
+
+.iframe-wide{
+    width : 51.25rem;
+    
 }

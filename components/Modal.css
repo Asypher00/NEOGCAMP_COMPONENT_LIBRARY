@@ -6,18 +6,17 @@
 }
 
 body {
-    background-color: gray;
+   
     font-family: "comic sans ms";
+   
 
 
 }
 
 .modal-container {
-    position: fixed;
-    left: 30vw;
-    top: 30vh;
+    
 
-    background-color: white;
+    background-color:gray;
     font-size: 1.25rem;
     display: flex;
     flex-direction: column;
