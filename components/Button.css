@@ -30,7 +30,14 @@
 .btn-float{
     width :3.125rem;
     border-radius: 50%;
+    box-shadow: 5px 5px lightgray;
+    position: fixed;
+    top : 50px;
+    right : 20px;
+}
+
+h3:nth-of-type(4){
     position: fixed;
     top : 0px;
-    right : 0px;
+    right : 20px;
 }

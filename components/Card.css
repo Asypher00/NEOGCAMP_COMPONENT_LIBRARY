@@ -91,3 +91,14 @@ margin-bottom: 0px;
   top : 6rem;
   font-weight: 50%;
 }
+
+.newBadge{
+  font-size: 1rem;
+  background-color: aqua;
+  padding-left : 5px;
+  padding-right: 5px;
+  border : 2px solid black;
+  border-radius: 10px;
+  position: absolute;
+  top : 190px;
+}
